@@ -53,6 +53,12 @@
             <groupId>io.projectreactor.addons</groupId>
             <artifactId>reactor-logback</artifactId>
             <version>3.2.4.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.sun.java</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
