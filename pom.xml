@@ -49,6 +49,19 @@
             <version>${log4jdbc.log4j2.version}</version>
         </dependency>
 
+        <!-- Package that breaks build in vscode-java -->
+        <!-- {
+            "resource": "~/testProj/src/main/java/broken/pom/HelloController.java",
+            "owner": "_generated_diagnostic_collection_name_#2",
+            "code": "8390063",
+            "severity": 8,
+            "message": "The package java.lang is accessible from more than one module: <unnamed>, java.base",
+            "source": "Java",
+            "startLineNumber": 21,
+            "startColumn": 5,
+            "endLineNumber": 21,
+            "endColumn": 10
+        } -->
         <dependency>
             <groupId>io.projectreactor.addons</groupId>
             <artifactId>reactor-logback</artifactId>
